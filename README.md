@@ -30,4 +30,4 @@ tel que leurs LP ou bien encore leur classement. Ce site n'est pas **fini**.
 Pour pouvoir l'utiliser vous devez vous créer un compte avec le même pseudo que sur le jeu ainsi que la région du serveur sur lequel vous jouer, ensuite... il ne reste plus qu'à 
 vous connecter ! 
 
-Si vous voulez essayer se site une liste de Pseudo avec chacun leur région associé est disponible dans le fichier txt qui se nomme
+Si vous voulez essayer se site une liste de Pseudo avec chacun leur région associé est disponible dans le fichier txt qui se nomme **LISTE**
