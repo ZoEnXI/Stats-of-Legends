@@ -1,0 +1,27 @@
+/* includes alternating gray and white with on-hover color */
+
+.mystyle {
+    font-size: 13pt; 
+    font-family: sans-serif;
+    border-collapse: collapse; 
+    border: transparent;
+    text-align: center;
+}
+
+.mystyle td, th {
+    padding: 10px;
+    border: rgb(0, 0, 0);
+}
+
+
+
+.mystyle tr:nth-child(1) {
+    background : transparent;
+}
+
+th {
+    background: transparent;
+}
+
+
+
