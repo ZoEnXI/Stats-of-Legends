@@ -22,8 +22,7 @@ Pour installer les modules veuillez ouvrir votre invite de commande puis taper o
 ## Présentation du Site
 
 **Stats of Legends** est un site permettant au joueur de **League of Legend** de consulter les détails de leurs dernier match ainsiq que quelques statistiques lié à leurs comptes 
-
-tel que leurs LP ou bien encore leur classement. Ce site n'est pas **fini**.
+tel que leurs LP ou bien encore leur classement. Ce site n'est pas **fini**, en effet des ajouts tel que la liste d'item ou des stats plus avancé (masteries, winrate) devrai arriver.
 
 ## Utilisation
 
