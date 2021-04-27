@@ -2,6 +2,7 @@ Utilisation de l’application :
 
 Notre application consiste a affiché le dernier match d’un joueur ainsi que quelques donnés complémentaires. Pour cela vous devez vous inscrire avec 
 le même pseudo que sur le jeu League of Legends, nous vous avons fournit une liste de joueur provenant de différentes régions pour crée différents comptes. 
+Pour le bon fonctionnement du site il faut aussi télécharger les vidéos que vous pourrez obtenir via le lien du txt dans static/image et les placer dans ce même fichier.
 
 
 Voici une liste de Joueur avec le serveur qui leur est attribué  : 
