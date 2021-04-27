@@ -33,6 +33,6 @@ Si vous voulez essayer se site une liste de Pseudo avec chacun leur région asso
 
 Enfin pour le bon fonctionnement du site vous devez télécharger 3 courtes vidéos servant de fond aux pages html.
 Vous retrouverez le lien de ces vidéos dans le dossier image qui se trouve dans le dossier static.
-> static\image\DOWNLOAD.txt
+> static\images\DOWNLOAD.txt
 
 Une fois téléchargé veuillez mettre les vidéos dans ce même dossier.
