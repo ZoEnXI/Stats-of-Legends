@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    
+<!-- PARAMETRAGE DE BASE (icone, nom fenêtre, lien entre fichier, language utf-8) -->
+    
+    <head>
+        
+        <meta charset="UTF-8 /">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <title>Stats of Legends</title>
+        <link rel="icon" href="../static/Images/icone3.png">
+        <link rel="stylesheet" href="../static/main.css">
+        
+    </head>   
+    
+    <body>
+        
+        <!-- HEADER (Image, Logo, Titre) -->
+        
+        <header>
+            <figure>
+                <img src="../static/Images/icone3.png" class= icone width="100px"/>
+                <figcaption class="slash"><B>|</B></figcaption>
+                <figcaption class="title" width= 200px><B>STATS OF LEGENDS</B></figcaption>
+                <input class="connexion" type="button" value="Connexion" onclick="location.href='/login';" />
+                <figcaption class="slash2"><B>|</B></figcaption>
+                <input class="inscription" type="button" value="Inscription" onclick="location.href='/signup';">
+            </figure>
+        </header>
+
+           
+        <video autoplay muted loop id="myVideo">
+            <source src="../static/Images/VIDEOLOL1.mp4" type="video/mp4">
+        </video>
+
+        <div class="cadre1">
+            <img src="../static/Images/LOGO.png" class="video" width="600">
+            <video src="../static/Images/VIDEOLOL1.mp4" class="video1"type="video/mp4" loop autoplay height="100%" width="100%"></video>
+        </div>
+        
+        <div class="cadre2">
+            <p class="p1"><B>QU'EST-CE QUE LEAGUE OF LEGENDS ?</B></p>
+            <p class="p2">League of Legends est un jeu de stratégie en équipe dans lequel deux équipes de cinq champions s'affrontent pour détruire la base adverse. Faites votre choix parmi plus de 140 champions disponibles, partez au combat, éliminez vos adversaires avec adresse et abattez les tourelles ennemies pour décrocher la victoire.</p>
+            <p class="p3"><B>QUEL EST LE BUT DE LEAGUE OF LEGENDS ?</B></p>
+            <p class="p4">Le Nexus est le cœur de la base de chaque équipe. Détruisez le Nexus ennemi en premier pour remporter la partie. Votre équipe doit détruire toutes les défenses d'au moins une voie pour pouvoir atteindre le Nexus ennemi. Ces structures défensives qui bloquent votre route sont appelées des tourelles et des inhibiteurs. Chaque voie possède trois tourelles et un inhibiteur, et chaque Nexus est gardé par deux tourelles.</p>
+            <p class="p5"><B>QUEL EST LE PRINCIPE DE STATS OF LEGENDS ?</B>
+            <p class="p6">Stats of Legends est un projet vous permettant d'accéder à vos stats personnalisées. Il vous suffit de vous créer un compte avec votre nom d'invocateur League of Legends, puis une fois connecté, vous accéderez à votre page personnalisée.</p>
+        </div>
+
+        <form action = "/index" method = "POST">
+
+        <footer>
+            <h1 class="SOL">STATS OF LEGENDS</h1>
+            <figure class=footer>
+                <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                    <a class="a2a_button_email"></a>
+                    <a class="a2a_button_facebook"></a>
+                    <a class="a2a_button_twitter"></a>
+                    <a class="a2a_button_reddit"></a>
+                </div>
+            </figure>
+            
+                <script>
+                var a2a_config = a2a_config || {};
+                a2a_config.locale = "fr"; 
+                </script>
+                
+                <script async src="https://static.addtoany.com/menu/page.js"></script>
+        </footer>
+        
+    </body>
+</html>

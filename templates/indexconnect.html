@@ -1,0 +1,60 @@
+html>
+    
+<!-- PARAMETRAGE DE BASE (icone, nom fenÃªtre, lien entre fichier, language utf-8) -->
+    
+    <head>
+        
+        <meta charset="UTF-8 /">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <title>Stats of Legends</title>
+        <link rel="icon" href="../static/Images/icone3.png">
+        <link rel="stylesheet" href="../static/mainconnect.css">
+        
+    </head>   
+    
+    <body>
+
+        <!-- HEADER (Image, Logo, Titre) -->
+        
+        <header>
+            <figure>
+                <img src="../static/Images/icone3.png" class= icone width= 100px/>
+                <figcaption class="slash"><B>|</B></figcaption>
+                <figcaption class="title" width= 200px><B>STATS OF LEGENDS</B></figcaption>
+                <input class="deconnexion" type="button" value="Deconnexion" onclick="location.href='/';">
+                <iframe class = "stats" src="{{ iframe }}" frameborder="0"></iframe> 
+            </figure>
+        </header>
+
+        <video autoplay preload="auto" loop id="myVideo">
+            <source src="../static/Images/animated-void.webm" type="video/webm">
+        </video>
+
+        <script>
+            var video = document.getElementById("myVideo");
+            video.volume = 0.015;
+        </script>
+
+        <iframe class="table" src="{{ iframe2 }}"frameborder ="0"></iframe>      
+           
+        </div>
+            <footer>
+                <figure class=footer>
+                    <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                        <a class="a2a_button_email"></a>
+                        <a class="a2a_button_facebook"></a>
+                        <a class="a2a_button_twitter"></a>
+                        <a class="a2a_button_reddit"></a>
+        </div>
+            </figure>
+                <script>
+                var a2a_config = a2a_config || {};
+                a2a_config.locale = "fr"; 
+                </script>
+                <script async src="https://static.addtoany.com/menu/page.js"></script>
+        </footer>
+        
+    </body>
+</html>
