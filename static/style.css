@@ -1,0 +1,109 @@
+/* Fond de site */
+
+body{
+    background-color: #1d1d1d;
+}
+#myVideo {
+    position: fixed; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+    filter: blur(10px), brightness(70%);
+}
+
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+}
+/* Style du Formulaire */
+
+form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    font-family: sans-serif;
+}
+#container h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+#h1{
+    font-family: sans-serif;
+}
+
+/* Full-width inputs */
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Set a style for all buttons */
+
+input[type=submit] {
+    background-color: #1d1d1d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: sans-serif;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: #1d1d1d;
+    border: 1px solid #1d1d1d;
+    font-family: sans-serif;
+}
+
+/*  Selection d'une région - Signin.html */ 
+
+select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.iplus{
+    padding-left: 36%;
+    font-size: 10px;
+}
+
+.cplus{
+    padding-left: 40%;
+    font-size: 10px;
+}
+
+.container.card span
+{
+    transition: 0.5;;
+}
+.container.card span:nth-child(1)
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #1779ff);
+}
